@@ -1,0 +1,23 @@
+.footer__box {
+   height: calc(100vh - 1000px);
+}
+.footer-list {
+    display: flex;
+    background: #f8f6f2;
+    padding: 20px 20px;
+}
+.footer-list p {
+    padding: 0 10px;
+    font-size: 14px;
+    color: var(--text);
+}
+.footer__rights {
+    display: flex;
+    font-size: 13px;
+    background: #f8f6f2;
+    color: var(--text);
+    padding: 20px 20px;
+}
+.footer__rights img {
+    padding-right: 10px;
+}
