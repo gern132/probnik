@@ -1,0 +1,41 @@
+@media (max-width: 805px) {
+    .main__options p,
+    .fa-sliders-h {
+    padding: 0 5px 0 5px;
+    }
+}
+@media (max-width: 660px) {
+    .fa-chevron-down:nth-child(2),
+    .header__geolocation,
+    .main__options p,
+    .fa-search,
+    .header__vision-block,
+    .submenu,
+    .header__navigation,
+    .header__user-photo,
+    .heder__user {
+        display: none;
+    }
+    .fa-user,
+    .fa-bars,
+    .fa-plus {
+        display: flex;
+    }
+    .header__main-in {
+        display: flex;
+        align-items: center;
+    }
+    .main__arcticle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(4px + 32 * (100vw / 1920));
+    }
+    .main__input {
+        margin: 10px 0 10px 30px;
+        height: 30px;
+        width: calc(150px + 290 * (100vw / 1920));
+    }
+}
+/* <i class="fas fa-user"></i>  */ 
+/* <i class="fas fa-bars"></i>   */
